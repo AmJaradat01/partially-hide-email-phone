@@ -11,9 +11,6 @@
     "readme-md-generator": "^1.0.0"
   },
   "devDependencies": {},
-
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-
   "scripts": {
     "test": "mocha tests/*.test.js"
   },
