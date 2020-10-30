@@ -1,21 +1,21 @@
-# Welcome to hide-email-phone-partially 👋
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/hide-email-phone-partially#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/hide-email-phone-partially/graphs/commit-activity)
+# Welcome to partially-hide-email-phone 👋
+![Version](https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/partially-hide-email-phone#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/partially-hide-email-phone/graphs/commit-activity)
 
-### 🏠 [Homepage](https://github.com/AmJaradat01/hide-email-phone-partially#readme)
+### 🏠 [Homepage](https://github.com/AmJaradat01/partially-hide-email-phone#readme)
 
 > Module to hide emails and phone numbers partially
 
 ## Install
 
 ```sh
-npm install hide-email-phone-partially
+npm install partially-hide-email-phone
 ```
 ## Usage
 
 ```sh
-const hideEmailPhone = require('hide-email-phone-partially')
+const hideEmailPhone = require('partially-hide-email-phone')
 ```
 
 Example:
