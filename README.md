@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-npn install partially-masked-email-and-phone
+npm install partially-masked-email-and-phone
 ```
 
 ## Usage
