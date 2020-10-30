@@ -1,7 +1,7 @@
 {
-  "name": "partially-masked-email-and-phone",
+  "name": "hide-email-phone-partially",
   "version": "1.0.0",
-  "description": "Module hides emails and phones partially from an input message",
+  "description": "Module hides emails and phones partially from an input",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -16,28 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmJaradat01/Partially-mask-email-phone.git"
+    "url": "git+https://github.com/AmJaradat01/hide-email-phone-partially.git"
   },
   "keywords": [
+    "hide",
     "mask",
+    "hide-email",
+    "hide-phone",
     "mask-email",
     "mask-phone",
     "mask-email-phone",
-    "hide",
-    "partially",
-    "hide-email",
-    "hide-phone",
-    "hide-email-phone",
-    "npm",
-    "javascript",
-    "nodejs",
-    "module",
-    "require"
+    "hide-emnail-phone"
   ],
   "author": "Ali Jaradat (AmJaradat01@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AmJaradat01/Partially-mask-email-phone/issues"
+    "url": "https://github.com/AmJaradat01/hide-email-phone-partially/issues"
   },
-  "homepage": "https://github.com/AmJaradat01/Partially-mask-email-phone#readme"
+  "homepage": "https://github.com/AmJaradat01/hide-email-phone-partially#readme"
 }

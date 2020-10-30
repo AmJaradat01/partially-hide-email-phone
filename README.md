@@ -1,16 +1,17 @@
-# Welcome to partially-masked-email-and-phone 👋
+# Welcome to hide-email-phone-partially 👋
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/Partially-mask-email-phone#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/Partially-mask-email-phone/graphs/commit-activity)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/hide-email-phone-partially#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/hide-email-phone-partially/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/github/license/AmJaradat01/hide-email-phone-partially)](#)
 
-> Module hides emails and phones partially from an input message
+> Module hides emails and phones partially from an input
 
-### 🏠 [Homepage](https://github.com/AmJaradat01/Partially-mask-email-phone#readme)
+### 🏠 [Homepage](https://github.com/AmJaradat01/hide-email-phone-partially#readme)
 
 ## Install
 
 ```sh
-npm install partially-masked-email-and-phone
+npm install hide-email-phone-partially
 ```
 
 ## Usage
@@ -18,35 +19,11 @@ npm install partially-masked-email-and-phone
 ```sh
 const maskEmailsPhones = require('partially-masked-email-and-phone')
 ```
-Example:
-
-```javascript
-
-var email = 'exampleemail@domail.com';
-
-console.log(maskEmailsPhones(email))
-
-var phoneNumber = '62811203898';
-
-console.log(maskEmailsPhones(phoneNumber))
-
-```
-
-The `output` variable will be equal to: 
-
-```javascript
-
-`ex**pl**ma**@domail.com
-
-6281****898
-`
-
-```
 
 ## Run tests
 
 ```sh
-mocha tests/*.test.js
+npm run test
 ```
 
 ## Author
@@ -55,13 +32,16 @@ mocha tests/*.test.js
 
 * Github: [@AmJaradat01](https://github.com/AmJaradat01)
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/AmJaradat01/hide-email-phone-partially/issues). 
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
 
-## 📝 License
-
-Copyright © 2020 [Ali Jaradat (AmJaradat01@gmail.com)](https://github.com/AmJaradat01).
-
-This project is [MIT](https://github.com/AmJaradat01/Partially-mask-email-phone/blob/master/LICENSE) licensed.
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
