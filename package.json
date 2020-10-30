@@ -1,6 +1,6 @@
 {
   "name": "hide-email-phone-partially",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Module hides emails and phones partially from an input",
   "main": "index.js",
   "directories": {
