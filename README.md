@@ -1,5 +1,5 @@
 # Welcome to hide-email-phone-partially 👋
-![Version](https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.5-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/hide-email-phone-partially#readme)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/hide-email-phone-partially/graphs/commit-activity)
 
@@ -35,7 +35,7 @@ The output variable will be equal to:
 ```sh
 `ex**pl**ma**@domail.com
  
-6281****898
+6281****898`
 
 ```
 
