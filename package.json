@@ -1,6 +1,6 @@
 {
   "name": "hide-email-phone-partially",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Module hides emails and phones partially from an input",
   "main": "index.js",
   "directories": {
@@ -26,7 +26,10 @@
     "mask-email",
     "mask-phone",
     "mask-email-phone",
-    "hide-emnail-phone"
+    "hide-email-phone",
+    "partially-mask",
+    "partially-hide",
+    "email-phone"
   ],
   "author": "Ali Jaradat (AmJaradat01@gmail.com)",
   "license": "MIT",
