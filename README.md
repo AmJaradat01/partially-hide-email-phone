@@ -2,7 +2,6 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/Partially-mask-email-phone#readme)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/Partially-mask-email-phone/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/AmJaradat01/partially-masked-email-and-phone)](https://github.com/AmJaradat01/Partially-mask-email-phone/blob/master/LICENSE)
 
 > Module hides emails and phones partially from an input message
 
