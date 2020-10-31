@@ -21,7 +21,7 @@ const hideEmailPhone = require('partially-hide-email-phone')
 Example:
 
  ```sh
-var email = 'exampleemail@domail.com';
+var email = 'exampleemail@domain.com';
   
 var phoneNumber = '62811203898';
 
@@ -33,7 +33,7 @@ console.log(hideEmailPhone(phoneNumber));
 The output variable will be equal to:
 
 ```sh
-`ex**pl**ma**@domail.com
+`ex**pl**ma**@domain.com
  
 6281****898`
 
