@@ -1,4 +1,5 @@
-const { validateEmail, formatEmail } = require('./utils/validateInput');
+const { formatEmail } = require('./utils/formatOutput');
+const { validateEmail } = require('./utils/validateInput');
 
 function hideEmail(email) {
   if (!validateEmail(email)) {
