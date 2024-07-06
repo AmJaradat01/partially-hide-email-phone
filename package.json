@@ -1,18 +1,20 @@
 {
   "name": "partially-hide-email-phone",
-  "version": "1.0.1",
-  "description": "Module hides emails and phones partially from an input",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "A simple module to partially hide email addresses and phone numbers from an input for privacy purposes.",
+  "main": "src/index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
-  "dependencies": {
-    "readme-md-generator": "^1.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.0.0",
+    "jest": "^29.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "mocha tests/*.test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,8 @@
     "hide-email-phone",
     "partially-mask",
     "partially-hide",
-    "email-phone"
+    "email-phone",
+    "privacy"
   ],
   "author": "Ali Jaradat (AmJaradat01@gmail.com)",
   "license": "MIT",
