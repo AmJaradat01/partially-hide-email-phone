@@ -1,74 +1,35 @@
-# Welcome to partially-hide-email-phone 👋
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/AmJaradat01/partially-hide-email-phone#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AmJaradat01/partially-hide-email-phone/graphs/commit-activity)
+# ⚠️ DEPRECATED
 
-### 🏠 [Homepage](https://github.com/AmJaradat01/partially-hide-email-phone#readme)
+This package has been **deprecated** and replaced by [**DataVeil**](https://github.com/AmJaradat01/dataveil).
 
-> A simple utility to partially hide email addresses or phone numbers.
+## Migration
 
-## Features
-
-- Partially hides email addresses (e.g., `exampleemail@domain.com` -> `ex**pl**ma**@domain.com`)
-- Partially hides phone numbers (e.g., `62811203898` -> `6281****898`)
-- Validates input for proper email and phone number formats
-- Lightweight and easy to use
-
-## Install
-
-Install the package using npm:
-
-```sh
-npm install partially-hide-email-phone
+```bash
+npm uninstall partially-hide-email-phone
+npm install dataveil
 ```
 
-## Usage
+## New Features in DataVeil
 
-Import the module and use the functions to partially hide email addresses and phone numbers:
+- 🔒 Enhanced security with input validation
+- 📱 Format preservation for phone numbers
+- 🌳 Nested JSON masking with dot notation
+- 🛡️ Protection against injection attacks
+- 🚀 Zero dependencies
+- 📦 Full TypeScript support
 
-```js
-const hideEmailPhone = require('partially-hide-email-phone');
+## Quick Migration Example
 
-const email = 'exampleemail@domain.com';
-const phoneNumber = '62811203898';
-
-console.log(hideEmailPhone.hideEmail(email)); // Output: ex**pl**ma**@domain.com
-console.log(hideEmailPhone.hidePhone(phoneNumber)); // Output: 6281****898
+**Old:**
+```javascript
+const { hideEmail } = require('partially-hide-email-phone');
+hideEmail('user@example.com');
 ```
 
-## API
-
-### hideEmail(email)
-
-- email (string): The email address to be partially hidden.
-- Returns the partially hidden email address.
-
-### hidePhone(phone)
-
-- phone (string): The phone number to be partially hidden.
-- Returns the partially hidden phone number.
-
-## Run tests
-
-Run the test suite to ensure everything is working correctly:
-
-```sh
-npm run test
+**New:**
+```javascript
+const { DataVeil } = require('dataveil');
+DataVeil.maskEmail('user@example.com');
 ```
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with your improvements.
-
-## Author
-
-👤 **Ali Jaradat (AmJaradat01@gmail.com)**
-
-* Github: [@AmJaradat01](https://github.com/AmJaradat01)
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-```
-
-This implementation should help you enhance the functionality and maintainability of your "partially-hide-email-phone" repository. Let me know if you need further assistance!
-```
+See the [DataVeil documentation](https://github.com/AmJaradat01/dataveil#readme) for the complete API reference.
